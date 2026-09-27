@@ -1,0 +1,12 @@
+{
+  "name": "vavt-birthday-bot",
+  "version": "1.0.0",
+  "description": "Telegram-бот для дней рождения группы ВАВТ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}

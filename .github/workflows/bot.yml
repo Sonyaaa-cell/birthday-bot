@@ -19,7 +19,7 @@ jobs:
           node-version: 20
 
       - name: Установить зависимости
-        run: npm install axios
+        run: - name: cd "$GITHUB_WORKSPACE" && npm install axios
 
       - name: Запустить бота
         env:
